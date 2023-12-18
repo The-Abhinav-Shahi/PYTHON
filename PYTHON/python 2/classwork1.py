@@ -1,0 +1,5 @@
+username = (input("giver your username"))
+password = (input("password"))
+if(username== "atharvashrestha"):print("the username is correct")
+if (password == "atharva1"):print("the password is correct")
+else:print("invalid name or username")    

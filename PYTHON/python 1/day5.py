@@ -1,0 +1,1 @@
+firstname = int(input("enter first name"))+ lastname = int(input("enter last name"))

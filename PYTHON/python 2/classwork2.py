@@ -1,0 +1,56 @@
+a=" u m e s h  "
+print(len(a))
+print(len(a.strip()))
+print(a.strip())
+a=[]
+b=list()
+print(type(a))
+print(type(b))
+a=[1,1.1,"ram"]
+print(a)
+print(a[1])
+b=[8,9,10,11,12,13,14,15,16,17]
+print(b[2:5])
+print(b[0:10:3])
+c=['ram','sam','hari','rabi']
+c[0]='buddy'
+print(c)
+del c[0]
+print(c)
+c.append("atharva")
+print(c)
+c.insert(0,'umesh')
+print(c)
+c.remove("umesh")
+c.insert(0,'messi')
+print(c)
+c.pop()
+print(c)
+c[0]="lionel"
+print(c)
+c.sort()
+print(c)
+c.reverse()
+print(c)
+#d=(print(input("enter a list off usernames")))
+a=['rabi','geeta','raju']
+print(a)
+a.insert(0,'atharva')
+a.append('hari')
+a.append('sam')
+print(a)
+print(a[2])
+del a[2]
+print(a)
+a.append('shrestha')
+print(a)
+a.sort()
+print(a)
+a.reverse()
+print(a)
+a.pop(2) 
+print(a)
+a.insert(2,'raju')
+print(a)
+tuple=('atharva','rabi','raju')
+print(tuple)
